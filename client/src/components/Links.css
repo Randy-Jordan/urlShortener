@@ -1,0 +1,68 @@
+ul{
+    display: grid;
+    align-self: start;
+    justify-self: center;
+    justify-items:center;
+    align-items: flex-start;
+    width: 100%;
+    padding:0;
+    padding-top: 2rem;
+    background-color: var(--color-primary);
+}
+li{
+    display: flex;
+    align-items: center;
+    align-self: start;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    width: 100%;
+    max-width: 1000px;
+    background-color: white;
+    list-style: none;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: .8rem 1rem;
+    font-weight: bold;
+    
+}
+
+button{
+    background-color: var(--color-cta);
+    color: white;
+    padding: .6rem 1.5rem;
+    border-radius: 5px;
+    border: solid 2px var(--color-cta);
+    margin-left: 1rem;
+    
+}
+
+p.original{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    
+}
+span.new{
+    color: var(--color-cta);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+button.copied{
+    background-color: purple;
+    border: solid purple 2px;
+}
+@media only screen and (max-width: 600px) {
+    li {
+      display: grid;
+      justify-items: center;
+      justify-content: center;
+      text-align: center;  
+    }
+    span.new{
+        display: grid;
+        justify-items: center;
+        align-items: center;
+    }
+  }
+

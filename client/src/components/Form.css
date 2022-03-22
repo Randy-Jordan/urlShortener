@@ -1,0 +1,58 @@
+@media only screen and (min-width: 600px) {
+    form{
+        display: flex !important;
+        padding: 3rem !important;
+    }
+    input{
+        flex: 1 1 250px; 
+        margin-bottom: 0rem !important;
+    }
+    button{
+        flex: 0 1 175px;  
+        margin-left: 2rem;
+
+    }
+  }
+
+
+form{
+    display: grid;
+    align-self: start;
+    justify-self: center;
+    align-items: center;
+    justify-items: center;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    max-width: 1000px;
+    border: solid black 1px;
+    background-image: url('../../public/img/wave.svg');
+    background-size: cover;
+    background-color: #4b406a;
+    padding: 3rem 0rem;
+}
+
+input{
+    padding: .8rem 0rem;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    width: 90%;
+    margin-bottom: 1.5rem;
+    padding-left: 1rem;
+}
+
+form button{
+    padding: .8rem .5rem;
+    font-size: 1.2rem; 
+    border-radius: 5px;
+    background-color: var(--color-cta);
+    border: solid var(--color-cta) 2px;
+    color: white;
+    width: 50%;
+    
+}
+
+.link{
+    margin-bottom: 50vh;
+}
